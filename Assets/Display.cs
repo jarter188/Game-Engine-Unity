@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class Display : MonoBehaviour
 {
-    public Canvas inventory;
+    // public Canvas inventory;
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            inventory.SetActive(true);
+            //inventory.SetActive(true);
         }
         else
         {
